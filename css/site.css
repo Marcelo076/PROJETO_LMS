@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body,
+html 
+{
+	background-color: black;
+	color: white;
+	font-size: 15px;
+    font-weight: 300;
+    line-height: 2;
+}
+body,
+header,
+main,
+footer,
+html
+{
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+	padding: 0;
+	left: 0;
+	right: 0;
+}
+
+a 
+{
+	color: white;
+	text-decoration: none;
+}
+ul 
+{
+	list-style: none;
+	margin: 0px none;
+}
+h2 
+{
+	text-transform: uppercase;
+    line-height: 25px;
+    color: #116fff;
+    font-weight: bold;
+    margin: 0 auto 20px;
+}
+p 
+{
+	font-size: 1em;
+	margin-bottom: 15px;
+}
+main 
+{
+    float: left;
+    z-index: 100;
+}
+.carregando
+{
+	
+	background-color: black;
+	float: left;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	padding-top: 10%;
+}
+.menu-topo 
+{
+	position: fixed;
+	background-color: rgba(0,0,0,0.5);
+	width: 100%;
+	max-height: 55px;
+	top: 0px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+.menu-topo 
+.logo
+{
+	float: left;
+	margin-left: 6%;
+}
+.menu-topo 
+.logo
+img
+{
+	max-height: 52px;
+}
+.menu-topo 
+.menu
+{
+	float: right;
+}
+.banner-titulo 
+{
+	background: url("../img/vestibular-20191-banner.png") center bottom;
+    background-size: cover!important;
+    background-repeat: no-repeat!important;
+    min-height: 570px;
+    padding-top: 13%;
+    width: 100%;
+    height: 600px;
+    left: 0px;
+    top: 0px;
+    text-align: center;
+    margin-top: 0px;
+    overflow: auto;
+}
+.separador-ponto 
+{
+    width: 5px;
+    height: 5px;
+    display: inline-block;
+    background: #00aaf3;
+    border-radius: 50%;
+    margin-bottom: 2px;
+}
+.btn-embreve 
+{
+    border-radius: 50px;
+    width: 300px;
+    font-size: 1.7em;
+    font-weight: 700;
+    padding: 10px 20px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    background: #116fff;
+    display: inline-block;
+    text-align: center;
+    line-height: 1;
+    text-shadow: 2px 1px rgba(0,0,0,.2);
+}
+.banner-titulo
+.btn-embreve 
+{
+	margin-top: 40px;
+}
+.dataProva 
+{
+	color: white;
+	margin-top: 15px;
+}
+
+.menu 
+{
+    height: 41px;
+    padding-left: 5px;
+    padding-top: 12px;
+    position: relative;
+    z-index: 2;
+
+    float: left;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    margin-right: 100px;
+}
+.menu ul 
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li 
+{
+    float: left;
+    margin-right: 5px;
+    position: relative;
+    padding-bottom: 0;
+}
+.menu ul li a 
+{
+    margin-right: 16px;
+    padding: 0;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+    border-bottom: 2px solid transparent;
+    color: #fff;
+    cursor: pointer;
+
+    display: block;
+    float: left;
+    text-decoration: none;
+}
+
+.box 
+{
+    width: auto;
+    float: left;
+    text-align: center;
+    overflow: auto;
+}
+.box-4 
+{
+    width: 23%;
+    margin-right: 2%;
+}
+
+.ribbon:before 
+{
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-image: -webkit-linear-gradient(to right, #0b2b38, #195d80 22%, #7d498a 36%, #007eb1 48%, #116fff 63%, #7c4a8a 76%, #503873);
+    background-image: linear-gradient(to right, #0b2b38, #195d80 22%, #7d498a 36%, #007eb1 48%, #116fff 63%, #7c4a8a 76%, #503873);
+    content: '';
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0
+}
+
+footer .icon-bg 
+{
+    padding: 20px;
+    margin-right: -9px;
+}
+
+footer ul 
+{
+    display: block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.display-inline-block li 
+{
+    display: inline-block;
+}
+
+footer 
+{
+	margin: 0px auto;
+	margin-top: 150px;
+	width: 70%;
+	overflow: auto;
+}
+footer h3 
+{
+    font-size: .8em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #116fff;
+}
+
+.align-left 
+{
+	text-align: left;
+}
+
+main 
+{
+	margin-bottom: 70px;
+}
