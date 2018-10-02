@@ -1,0 +1,111 @@
+.col-xs-offset-1 
+{
+    margin-left: 12%;
+}
+.col-xs-10 
+{
+    width: 80%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+}
+.col-xs-7 
+{
+    width: 50%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+}
+.col-xs-5 
+{
+    width: 40%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+}
+.background-base-site 
+{
+    background: #0d181d;
+}
+h2 
+{
+    font-size: 1.9em;
+    margin-bottom: 15px;
+    font-family: Montserrat,sans-serif;
+    color: #fff;
+}
+h2.border-after:after 
+{
+    content: '';
+    width: 55px;
+    height: 3px;
+    display: block;
+    margin: 10px;
+    background: #0062f8;
+}
+.section_title 
+{
+    text-transform: uppercase;
+    color: #116fff;
+    letter-spacing: 2px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.padding-25 
+{
+    padding: 25px!important;
+}
+.padding-50 
+{
+    padding: 30px!important;
+    padding-right: 0;
+}
+.title-academico 
+{
+    font-weight: 500;
+    color: #116fff;
+    font-size: 20px;
+}
+.spacing2 
+{
+    letter-spacing: 2px;
+}
+.icon-curso 
+{
+    display: inline-block;
+    float: left;
+    margin-top: 13px;
+    margin-right: 15px;
+}
+.icon-curso i 
+{
+    font-size: 30px;
+}
+.cor 
+{
+    color: #116fff!important;
+}
+.banner-main small 
+{
+    display: block;
+    font-size: 1.4em;
+    font-style: italic;
+}
+.banner-title 
+{
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 3.1em;
+    background: -webkit-linear-gradient(#f9f8f8,#a5a0a0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Montserrat,sans-serif;
+    font-weight: 700;
+    line-height: 75px;
+}
+.banner-title-sm2 
+{
+    font-size: 4em;
+    width: 80%;
+    margin: 0 auto;
+}
